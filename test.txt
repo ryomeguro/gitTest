@@ -1,0 +1,12 @@
+VM用にisoをダウンロードする必要があり
+ROS kineticはUbuntu16.04あたりがいいらしい
+
+チュートリアル
+https://github.com/siemens/ros-sharp/wiki
+
+このコマンドをVMでうてばUnityからのpublishを受けることができる。
+roslaunch rosbridge_server rosbridge_websocket.launch
+
+roslaunch rosbridge_server rosbridge_websocket.launch
+
+/bebop/cmd_vel のタイプは　geometry/Twist
